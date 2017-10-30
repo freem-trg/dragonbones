@@ -13,7 +13,7 @@ import starling.display.Sprite;
 /**
  * @inheritDoc
  */
-@:allow(dragonBones) @:final class StarlingArmatureDisplay extends Sprite implements IArmatureDisplay
+@:allow(dragonBones) class StarlingArmatureDisplay extends Sprite implements IArmatureDisplay
 {
 	public static var useDefaultStarlingEvent:Bool = false;
 	/**

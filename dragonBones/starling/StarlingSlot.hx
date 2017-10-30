@@ -412,7 +412,7 @@ import starling.styles.MeshStyle;
 				displayMatrix.d = globalTransformMatrix.d;
 				displayMatrix.tx = globalTransformMatrix.tx - (globalTransformMatrix.a * _pivotX + globalTransformMatrix.c * _pivotY);
 				displayMatrix.ty = globalTransformMatrix.ty - (globalTransformMatrix.b * _pivotX + globalTransformMatrix.d * _pivotY);
-				
+                
 				#if (starling >= "2.0")
 				//
 				_renderDisplay.setRequiresRedraw();
